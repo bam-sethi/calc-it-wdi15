@@ -16,43 +16,38 @@ console.log('num1', num1);
 
 
 num1 = parseInt(num1);
-num2= parseInt(num2);
+// num2= parseInt(num2);
  
+var answer; 
 
- var answer; 
-
-
-  if ( op != 'sqrt' ) {
-  var num2 = prompt('choose another number');
+if ( op != 'sqrt' ) {
+  var num2 = parseInt(prompt('choose another number'));
   
-} else if (op === 'sqrt' ) {
-    
-    answer= Math.sqrt(num1);
 } else {
-    console.log("Sorry!")
-};
+  answer= Math.sqrt(num1);
+} 
 
-
-  if (op === '+'){
+if (op === '+'){
     
     answer= num1 + num2;
 
-  } else if (op === '-' ){
+} else if (op === '-' ){
     
     answer= num1 - num2;
 
-  } else if (op === '/' ){
+} else if (op === '/' ){
     
     answer= num1/num2;
 
-  } else if (op === '*' ){
+} else if (op === '*' ){
     
     answer= num1 * num2;
 
-  } else {
+} else {
     console.log('No Actions Taken..Try Again.');
 
 }
+
 console.log('answer', answer);
 alert("Your answer is: " + answer);
 
