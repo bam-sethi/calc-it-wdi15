@@ -15,7 +15,7 @@ var num1 = prompt('choose a number');
 console.log('num1', num1);
 
 
-num1 = parseInt(num1);
+num1 = parseInt(num1).toFixed(2);
 // num2= parseInt(num2);
  
 var answer; 
@@ -27,24 +27,30 @@ if ( op != 'sqrt' ) {
   answer= Math.sqrt(num1);
 } 
 
+
 if (op === '+'){
     
-    answer= num1 + num2;
+  answer= num1 + num2;
 
 } else if (op === '-' ){
     
-    answer= num1 - num2;
+  answer= num1 - num2;
 
 } else if (op === '/' ){
     
-    answer= num1/num2;
+  answer= num1/num2;
 
 } else if (op === '*' ){
     
-    answer= num1 * num2;
+  answer= num1 * num2;
+
+} else if (op === 'power') {
+  
+  answer= Math.pow(num1, num2);
 
 } else {
-    console.log('No Actions Taken..Try Again.');
+  alert("Incorrect Input")
+  console.log('No Actions Taken');
 
 }
 
