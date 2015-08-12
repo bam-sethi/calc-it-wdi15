@@ -50,7 +50,7 @@ if (op === '+'){
 
 } else {
   alert("Incorrect Input")
-  console.log('No Actions Taken');
+  console.log('wrong input');
 
 }
 
