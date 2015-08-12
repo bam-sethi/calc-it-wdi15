@@ -8,7 +8,7 @@ Should use a loop!
 Should handle floats*/
 
 
-var op =  prompt('choose an operator');
+var op =  prompt('choose an operator ( + , - , * , / , sqrt or power)');
 console.log('op', op);
 
 var num1 = prompt('choose a number');
