@@ -17,8 +17,10 @@ console.log('num1', num1);
 
 num1 = parseInt(num1);
 num2= parseInt(num2);
+ 
 
-var answer;
+ var answer; 
+
 
   if ( op != 'sqrt' ) {
   var num2 = prompt('choose another number');
@@ -28,9 +30,8 @@ var answer;
     answer= Math.sqrt(num1);
 } else {
     console.log("Sorry!")
-}
+};
 
-  
 
   if (op === '+'){
     
@@ -53,7 +54,7 @@ var answer;
 
 }
 console.log('answer', answer);
-alert("Your answer is: " + parseInt(answer));
+alert("Your answer is: " + answer);
 
 
 
