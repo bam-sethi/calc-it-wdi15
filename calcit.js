@@ -23,9 +23,11 @@ var answer;
   if ( op != 'sqrt' ) {
   var num2 = prompt('choose another number');
   
-} else if (op === 'squrt' ) {
+} else if (op === 'sqrt' ) {
     
     answer= Math.sqrt(num1);
+} else {
+    console.log("Sorry!")
 }
 
   
