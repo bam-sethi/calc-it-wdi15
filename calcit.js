@@ -8,20 +8,20 @@ Should use a loop!
 Should handle floats*/
 
 
-var op =  prompt('choose an operation');
+var op =  prompt('choose an operator');
 console.log('op', op);
 
 var num1 = prompt('choose a number');
 console.log('num1', num1);
 
 
-num1 = parseInt(num1).toFixed(2);
-// num2= parseInt(num2);
+num1 = parseInt(num1);
+// num2= parseInt(num2).toFixed(2);
  
 var answer; 
 
 if ( op != 'sqrt' ) {
-  var num2 = parseInt(prompt('choose another number'));
+  var num2 = parseInt(prompt('choose another number.'));
   
 } else {
   answer= Math.sqrt(num1);
@@ -55,7 +55,7 @@ if (op === '+'){
 }
 
 console.log('answer', answer);
-alert("Your answer is: " + answer);
+alert("Your answer is: " + answer.toFixed(2));
 
 
 
