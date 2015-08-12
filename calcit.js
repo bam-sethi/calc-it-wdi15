@@ -21,15 +21,6 @@ num1 = parseInt(num1);
 num2= parseInt(num2);
 
 
-var answer
-
-alert("Your answer is: " + answer);
-console.log('answer', answer);
-
-
-
-
-
 
 if (op === '+'){
     
@@ -48,3 +39,9 @@ if (op === '+'){
     answer= num1 * num2;
 
   }
+
+var answer= alert("Your answer is: " + parseInt(answer));
+console.log('answer', answer);
+
+
+
